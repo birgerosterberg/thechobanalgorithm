@@ -14,5 +14,9 @@
 
 #### Other Content
 
-Color palette from https://colorhunt.co
-https://colorhunt.co/palette/a9907ef3debaabc4aa675d50
+Color palette from: https://colorhunt.co
+Color palette used: https://colorhunt.co/palette/a9907ef3debaabc4aa675d50
+Fonts from: https://google.com/fonts
+Icons from: https://fontawesome.com/icons
+
+Shadows from: https://getcssscan.com/css-box-shadow-examples
