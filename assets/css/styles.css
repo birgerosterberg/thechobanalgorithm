@@ -14,13 +14,14 @@ body {
   background-color: #abc4aa;
   /* Setting the root font of the page, and font-size to use rem. adding dark-gray instead of Black as color. */
   font-family: "Ubuntu", sans-serif;
-  font-size: 16px;
+  font-size: 24px;
   color: #675d50;
 }
 
 /* Universal Link designs. */
 a {
   text-decoration: none;
+  color: #675d50;
 }
 
 a:active {
@@ -28,7 +29,8 @@ a:active {
 }
 
 a:hover {
-  opacity: 0.9;
+  opacity: 0.8;
+  font-weight: 900;
   text-decoration: underline;
 }
 
@@ -40,6 +42,7 @@ header h1 {
   font-family: "Gloria Hallelujah", cursive;
   font-weight: bolder;
   letter-spacing: 2px;
+  font-size: 2rem;
 }
 
 /* Making sure all different sized headings except h1 use the same kind of Font. */
@@ -59,14 +62,12 @@ header {
   justify-content: space-around;
 
   position: sticky;
-  height: 40px;
+  top: 0px;
+  height: 80px;
 
   background-color: #abc4aa;
 }
 
-header h1 {
-  font-size: 1.05rem;
-}
 /* Navigation Styles! */
 header ul {
   display: flex;
@@ -76,15 +77,45 @@ header ul {
 header li {
   list-style: none;
   margin-left: 15px;
-  font-size: 0.7rem;
+  font-size: 1.2rem;
 }
 
 /* Hero Section */
 
 .hero {
-  height: 80vh;
+  height: 70vh;
   width: 100%;
   background: url("/assets/images/choban-hero.jpg") no-repeat center center;
   background-size: cover;
   overflow: hidden;
+}
+
+/* Philosophy Section */
+#philo {
+  margin-top: 3%;
+}
+
+.img-txt-philo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.img-txt-philo img {
+  height: 20%;
+  width: 20%;
+  border-radius: 50%;
+}
+
+.img-txt-philo p {
+  height: 40%;
+  width: 40%;
+  background-color: rgba(243, 222, 186, 0.4);
+  padding: 30px;
+  border-radius: 5%;
+}
+
+/* Inspiration Section! */
+#inspiration {
+  margin-top: 3%;
 }
