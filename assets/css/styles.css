@@ -108,15 +108,16 @@ header li {
   width: 20%;
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border: solid 1px #000000;
 }
 
 .img-txt-philo p {
   height: 40%;
   width: 40%;
-  background-color: rgba(243, 222, 186, 0.4);
+  background-color: rgba(243, 222, 186, 0.2);
   padding: 40px;
   border: solid 1px rgb(169, 144, 126);
-  border-radius: 15%;
+  border-radius: 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
