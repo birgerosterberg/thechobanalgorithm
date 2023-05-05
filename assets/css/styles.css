@@ -12,15 +12,37 @@
 
 body {
   background-color: #abc4aa;
+  /* Setting the root font of the page, and font-size to use rem. adding dark-gray instead of Black as color. */
   font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  color: #675d50;
 }
 
-h1 {
+/* Universal Link designs. */
+a {
+  text-decoration: none;
+}
+
+a:active {
+  color: #675d50;
+}
+
+a:hover {
+  opacity: 0.9;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #675d50;
+}
+
+header h1 {
   font-family: "Gloria Hallelujah", cursive;
   font-weight: bolder;
   letter-spacing: 2px;
 }
 
+/* Making sure all different sized headings except h1 use the same kind of Font. */
 h2,
 h3,
 h4,
@@ -29,6 +51,40 @@ h6 {
   font-family: "Indie Flower", cursive;
 }
 
-p {
-  font-family: "Ubuntu", sans-serif;
+/* Header Section of CSS */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  position: sticky;
+  height: 40px;
+
+  background-color: #abc4aa;
+}
+
+header h1 {
+  font-size: 1.05rem;
+}
+/* Navigation Styles! */
+header ul {
+  display: flex;
+}
+
+/* Navigation List designs */
+header li {
+  list-style: none;
+  margin-left: 15px;
+  font-size: 0.7rem;
+}
+
+/* Hero Section */
+
+.hero {
+  height: 80vh;
+  width: 100%;
+  background: url("/assets/images/choban-hero.jpg") no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
 }
