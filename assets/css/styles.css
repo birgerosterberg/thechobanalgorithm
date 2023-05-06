@@ -12,26 +12,27 @@
 
 body {
   background-color: #abc4aa;
-  /* Setting the root font of the page, and font-size to use rem. adding dark-gray instead of Black as color. */
+  /* Setting the root font of the page, and font-size to use rem. adding dark-brown instead of Black as color. */
   font-family: "Ubuntu", sans-serif;
   font-size: 24px;
-  color: #675d50;
+  color: #4c453e;
 }
 
 /* Universal Link designs. */
 a {
   text-decoration: none;
-  color: #675d50;
+  color: #4c453e;
+  font-weight: 600;
 }
 
 a:active {
-  color: #675d50;
+  color: #4c453e;
 }
 
 a:hover {
   opacity: 0.8;
-  font-weight: 900;
   text-decoration: underline;
+  color: #675d50;
 }
 
 a:visited {
@@ -43,6 +44,8 @@ header h1 {
   font-weight: bolder;
   letter-spacing: 2px;
   font-size: 2rem;
+  color: #4c453e;
+
   text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
     0px -4px 10px rgba(255, 255, 255, 0.3);
 }
@@ -67,7 +70,7 @@ header {
   top: 0px;
   height: 80px;
 
-  background-color: #abc4aa;
+  background-color: rgba(171, 196, 170, 0.9);
   z-index: 9999;
 }
 
@@ -95,7 +98,7 @@ header li {
 
 /* Philosophy Section */
 #philo {
-  margin-top: 3%;
+  margin: 100px 0px 100px 0px;
 }
 
 .img-txt-philo {
@@ -105,11 +108,10 @@ header li {
 }
 
 .img-txt-philo img {
-  height: 20%;
-  width: 20%;
-  border-radius: 50%;
+  border-radius: 10%;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   border: solid 1px #000000;
+  margin: 40px;
 }
 
 .img-txt-philo p {
@@ -132,20 +134,36 @@ header li {
 
 #inspiration {
   background-color: #a9907e;
-  clip-path: polygon(0 200px, 100% 0, 100% 100%, 0 100%);
+  color: #abc4aa;
 }
 
 .inspired {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
+}
+.inspired-text {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  text-shadow: #000 0px 0px 10px;
+  font-weight: 900;
+}
+.inspired-text h2 {
+  text-decoration: underline;
+  margin-bottom: 6px;
+}
+.videos {
+  width: 560px;
+  height: 315px;
+  margin: 30px 0px 30px 30px;
+  border-radius: 10%;
 }
 
 /* Gallery Section */
 #gallery {
-  margin-top: 100px;
+  margin: 100px 0px 100px 0px;
 }
 
 .galtainer {
