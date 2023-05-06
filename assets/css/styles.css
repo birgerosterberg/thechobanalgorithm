@@ -142,3 +142,18 @@ header li {
   align-items: center;
   padding-top: 100px;
 }
+
+/* Gallery Section */
+#gallery {
+  margin-top: 100px;
+}
+
+.galtainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.galtainer img {
+  margin: 10px;
+}
