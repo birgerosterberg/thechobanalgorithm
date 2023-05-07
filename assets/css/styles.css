@@ -15,13 +15,13 @@ body {
   /* Setting the root font of the page, and font-size to use rem. adding dark-brown instead of Black as color. */
   font-family: "Ubuntu", sans-serif;
   font-size: 24px;
-  color: #4c453e;
+  color: #000000;
 }
 
 /* Universal Link designs. */
 a {
   text-decoration: none;
-  color: #4c453e;
+  color: #000000;
   font-weight: 600;
 }
 
@@ -44,7 +44,7 @@ header h1 {
   font-weight: bolder;
   letter-spacing: 2px;
   font-size: 2rem;
-  color: #4c453e;
+  color: #000000;
 
   text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
     0px -4px 10px rgba(255, 255, 255, 0.3);
@@ -68,7 +68,7 @@ header {
 
   position: sticky;
   top: 0px;
-  height: 80px;
+  height: 90px;
 
   background-color: rgba(171, 196, 170, 0.9);
   z-index: 9999;
@@ -134,7 +134,7 @@ header li {
 
 #inspiration {
   background-color: #a9907e;
-  color: #abc4aa;
+  color: #000000;
 }
 
 .inspired {
@@ -147,7 +147,7 @@ header li {
   display: flex;
   flex-direction: column;
   width: 20%;
-  text-shadow: #000 0px 0px 10px;
+  text-shadow: #abc4aa 0px 0px 10px;
   font-weight: 900;
 }
 .inspired-text h2 {
