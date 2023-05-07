@@ -108,7 +108,7 @@ header li {
 }
 
 .img-txt-philo img {
-  border-radius: 10%;
+  border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   /* border: solid 1px #000000; */
   margin: 40px;
@@ -187,4 +187,21 @@ header li {
   overflow: hidden;
   width: 100%;
   height: 200px;
+}
+
+.formz input {
+  background-color: #abc4aa;
+  border-radius: 15px;
+  padding: 10px;
+  width: 300px;
+  font-size: 1.3rem;
+}
+.formz button {
+  background-color: #abc4aa;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+.formz button:hover {
+  background-color: #a9907e;
 }
