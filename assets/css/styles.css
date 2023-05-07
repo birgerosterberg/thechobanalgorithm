@@ -23,6 +23,7 @@ a {
   text-decoration: none;
   color: #000000;
   font-weight: 600;
+  cursor: pointer;
 }
 
 a:active {
@@ -204,4 +205,10 @@ header li {
 }
 .formz button:hover {
   background-color: #a9907e;
+}
+
+/* Footer */
+.social {
+  display: flex;
+  color: #4c453e;
 }
