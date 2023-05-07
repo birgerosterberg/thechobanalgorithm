@@ -110,7 +110,7 @@ header li {
 .img-txt-philo img {
   border-radius: 10%;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  border: solid 1px #000000;
+  /* border: solid 1px #000000; */
   margin: 40px;
 }
 
@@ -119,7 +119,7 @@ header li {
   width: 40%;
   background-color: rgba(243, 222, 186, 0.2);
   padding: 40px;
-  border: solid 1px rgb(169, 144, 126);
+  /* border: solid 1px rgb(169, 144, 126); */
   border-radius: 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -174,4 +174,17 @@ header li {
 
 .galtainer img {
   margin: 10px;
+}
+
+/* Form Section */
+#signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("/assets/images/newsletter.png") no-repeat right center;
+  background-color: #a9907e;
+  overflow: hidden;
+  width: 100%;
+  height: 200px;
 }
