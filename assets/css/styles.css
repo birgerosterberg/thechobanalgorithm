@@ -73,7 +73,7 @@ header ul {
 /* Navigation List designs */
 header li {
   list-style: none;
-  margin-left: 15px;
+  padding: 15px;
   font-size: 1.2rem;
 }
 
@@ -269,13 +269,18 @@ header li {
 
 /* MediaQueries section! */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   /* Header section MQ! */
   header {
     flex-wrap: wrap;
   }
+  header ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   header li {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    padding: 5px;
   }
 
   /* About Section MQ! */
@@ -287,18 +292,43 @@ header li {
     width: 80%;
     font-size: 1.1rem;
   }
-}
-/* Inspiration */
+  /* Inspiration */
+  .inspired__text {
+    text-align: center;
+    width: 80%;
+  }
+  .video {
+    width: 80%;
+  }
 
-/* Footer section MQ! */
-.social {
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-.social img {
-  height: 50px;
-}
-.social div p {
-  font-size: 1rem;
+  /* Permaculture */
+  .perma__container p {
+    width: 80%;
+    font-size: 1.1rem;
+  }
+
+  .perma__container img {
+    width: 90%;
+  }
+
+  .galtainer img {
+    width: 90%;
+  }
+
+  /* Footer section MQ! */
+  .social {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .social img {
+    height: 50px;
+  }
+  .social div p {
+    font-size: 1rem;
+  }
+  .social div a {
+    font-size: 1rem;
+  }
+  /* End of Mediaquery! */
 }
