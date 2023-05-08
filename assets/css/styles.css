@@ -198,13 +198,19 @@ header li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url("/assets/images/newsletter.png") no-repeat right center;
+  background: url("/assets/images/newsletter.png") no-repeat right bottom;
   background-color: #a9907e;
   overflow: hidden;
   width: 100%;
-  height: 200px;
+  height: 250px;
 }
-
+.form__design {
+  margin: 25px;
+}
+.form__design p {
+  width: 60%;
+  margin: 25px;
+}
 .form__design input {
   background-color: #abc4aa;
   border-radius: 15px;
@@ -310,11 +316,26 @@ header li {
   .perma__container img {
     width: 90%;
   }
-
+  /* Gallery section */
   .galtainer img {
     width: 90%;
   }
-
+  /* Signup section */
+  #signup {
+    height: 450px;
+    background-size: 50%;
+  }
+  .form__design input {
+    width: 200px;
+    padding: 5px;
+  }
+  .form__design button {
+    padding: 5px;
+    font-size: 1rem;
+  }
+  .form__design p {
+    font-size: 1rem;
+  }
   /* Footer section MQ! */
   .social {
     flex-wrap: wrap;
