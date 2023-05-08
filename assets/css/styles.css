@@ -99,7 +99,6 @@ header li {
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   /* border: solid 1px #000000; */
-  margin: 40px;
 }
 
 .img__txt__about p {
@@ -165,6 +164,11 @@ header li {
   width: 40%;
   padding: 10px;
 }
+.perma__container img {
+  margin-top: 50px;
+  border-radius: 5px;
+  width: 50%;
+}
 
 /* Gallery Section */
 #gallery {
@@ -219,6 +223,17 @@ header li {
 
 /* Footer */
 .social {
+  height: 100px;
   display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
   color: #4c453e;
+}
+.social ul {
+  display: flex;
+  list-style: none;
+}
+.social li {
+  padding: 10px;
 }
