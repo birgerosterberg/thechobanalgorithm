@@ -86,15 +86,13 @@ header li {
   overflow: hidden;
 }
 
-/* Philosophy Section */
-#about {
-}
+/* About Section */
 
 .img__txt__about {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin: 100px 0px 100px 0px;
+  padding: 100px 0px 100px 0px;
 }
 
 .img__txt__about img {
@@ -115,7 +113,7 @@ header li {
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 /* Unified Color to use for Fontawesome icons */
-.pimpicon {
+.pimp__icon {
   color: green;
   margin-left: 10px;
 }
@@ -147,13 +145,30 @@ header li {
 .videos {
   width: 560px;
   height: 315px;
-  margin: 30px 0px 30px 30px;
+  margin: 100px 0px 100px 0px;
   border-radius: 10%;
+}
+
+/* Permaculture section */
+#permaculture {
+  background-color: #f3deba;
+  padding: 100px 0px 100px 0px;
+}
+.perma__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.perma__container p {
+  width: 40%;
+  padding: 10px;
 }
 
 /* Gallery Section */
 #gallery {
-  margin: 100px 0px 100px 0px;
+  padding: 100px 0px 100px 0px;
 }
 
 .galtainer {
@@ -167,6 +182,7 @@ header li {
 }
 
 /* Form Section */
+
 #signup {
   display: flex;
   flex-direction: column;
@@ -179,21 +195,26 @@ header li {
   height: 200px;
 }
 
-.formz input {
+.form__design input {
   background-color: #abc4aa;
   border-radius: 15px;
-  padding: 10px;
+  padding: 15px;
   width: 300px;
   font-size: 1.3rem;
+
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
-.formz button {
+.form__design button {
   background-color: #abc4aa;
   border-radius: 15px;
-  padding: 10px;
+  padding: 15px;
   font-size: 1.2rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
-.formz button:hover {
-  background-color: #a9907e;
+.form__design button:hover {
+  background-color: #675d50;
 }
 
 /* Footer */
