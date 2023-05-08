@@ -223,17 +223,37 @@ header li {
 
 /* Footer */
 .social {
-  height: 100px;
+  height: 200px;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: space-between;
   align-items: center;
   color: #4c453e;
 }
+/* First part of the footer email copyright */
+
+.social div {
+  display: flex;
+  align-items: center;
+}
+.social img {
+  height: 100px;
+  align-self: flex-start;
+}
+.social div p {
+  font-size: 1.2rem;
+  margin: 5px;
+}
+
 .social ul {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
 }
 .social li {
   padding: 10px;
+}
+.social li p {
+  font-size: 1.2rem;
+  margin-top: 10px;
 }
