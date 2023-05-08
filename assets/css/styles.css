@@ -58,7 +58,7 @@ header {
 
   position: sticky;
   top: 0px;
-  height: 90px;
+  height: 100%;
 
   background-color: rgba(171, 196, 170, 0.9);
   z-index: 9999;
@@ -67,6 +67,7 @@ header {
 /* Navigation Styles! */
 header ul {
   display: flex;
+  width: 100%;
 }
 
 /* Navigation List designs */
@@ -264,4 +265,40 @@ header li {
 .social li p {
   font-size: 1.2rem;
   margin-top: 10px;
+}
+
+/* MediaQueries section! */
+
+@media only screen and (max-width: 768px) {
+  /* Header section MQ! */
+  header {
+    flex-wrap: wrap;
+  }
+  header li {
+    font-size: 1rem;
+  }
+
+  /* About Section MQ! */
+  .img__txt__about {
+    flex-wrap: wrap;
+    margin-top: 5px;
+  }
+  .para__about {
+    width: 80%;
+    font-size: 1.1rem;
+  }
+}
+/* Inspiration */
+
+/* Footer section MQ! */
+.social {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.social img {
+  height: 50px;
+}
+.social div p {
+  font-size: 1rem;
 }
