@@ -82,7 +82,8 @@ header li {
 .hero {
   height: 70vh;
   width: 100%;
-  background: url("../../assets/images/choban-hero.jpg") no-repeat center center;
+  background: url("../../assets/images/choban-hero.webp") no-repeat center
+    center;
   background-size: cover;
   overflow: hidden;
 }
@@ -183,6 +184,8 @@ header li {
 
 .galtainer img {
   margin: 10px;
+  height: 334px;
+  width: 500px;
 }
 
 /* Signup Section */
@@ -193,7 +196,7 @@ header li {
   justify-content: center;
   align-items: center;
   align-content: center;
-  background: url("../../assets/images/newsletter.png") no-repeat right bottom;
+  background: url("../../assets/images/newsletter.webp") no-repeat right bottom;
   background-color: #a9907e;
   overflow: hidden;
   width: 100%;
@@ -310,11 +313,13 @@ header li {
   }
 
   .perma__container img {
-    width: 90%;
+    width: 720px;
+    height: auto;
   }
   /* Gallery section */
   .galtainer img {
-    width: 90%;
+    width: 300px;
+    height: auto;
   }
   /* Signup section */
   .signup__container {
