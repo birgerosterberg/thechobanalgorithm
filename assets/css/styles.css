@@ -98,6 +98,8 @@ header li {
 }
 
 .img__txt__about img {
+  width: 320px;
+  height: 320px;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   /* border: solid 1px #000000; */
@@ -287,15 +289,23 @@ header li {
     font-size: 0.9rem;
     padding: 5px;
   }
-
+  header img {
+    width: 200px;
+    height: auto;
+  }
   /* About Section MQ! */
   .img__txt__about {
     flex-wrap: wrap;
-    margin-top: 5px;
+    padding: 20px 0px 20px 0px;
   }
   .para__about {
+    order: 2;
     width: 80%;
     font-size: 1.1rem;
+  }
+  .img__txt__about img {
+    order: 1;
+    border-radius: 0px;
   }
   /* Inspiration */
   .inspired__text {
@@ -313,7 +323,7 @@ header li {
   }
 
   .perma__container img {
-    width: 720px;
+    width: 90%;
     height: auto;
   }
   /* Gallery section */
