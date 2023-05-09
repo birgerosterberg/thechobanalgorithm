@@ -125,16 +125,13 @@ header li {
 
 /* Inspiration Section! */
 
-#inspiration {
-  background-color: #a9907e;
-  color: #000000;
-}
-
 .inspired {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  background-color: #a9907e;
+  color: #000000;
 }
 .inspired__text {
   display: flex;
@@ -155,16 +152,15 @@ header li {
 }
 
 /* Permaculture section */
-#permaculture {
-  background-color: #f3deba;
-  padding: 100px 0px 100px 0px;
-}
+
 .perma__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
+  background-color: #f3deba;
+  padding: 100px 0px 100px 0px;
 }
 .perma__container p {
   width: 40%;
@@ -177,27 +173,26 @@ header li {
 }
 
 /* Gallery Section */
-#gallery {
-  padding: 100px 0px 100px 0px;
-}
 
 .galtainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 100px 0px 100px 0px;
 }
 
 .galtainer img {
   margin: 10px;
 }
 
-/* Form Section */
+/* Signup Section */
 
-#signup {
+.signup__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-content: center;
   background: url("../../assets/images/newsletter.png") no-repeat right bottom;
   background-color: #a9907e;
   overflow: hidden;
@@ -206,9 +201,9 @@ header li {
 }
 .form__design {
   margin: 25px;
+  width: 50%;
 }
 .form__design p {
-  width: 60%;
   margin: 25px;
 }
 .form__design input {
@@ -272,6 +267,7 @@ header li {
   font-size: 1.2rem;
   margin-top: 10px;
 }
+/* thanks.html css starts here.*/
 
 /* MediaQueries section! */
 
@@ -321,9 +317,17 @@ header li {
     width: 90%;
   }
   /* Signup section */
-  #signup {
-    height: 450px;
+  .signup__container {
+    height: 300px;
     background-size: 50%;
+  }
+  .form__design {
+    margin: 5px;
+    width: 90%;
+  }
+  .form__design h2 {
+    text-align: center;
+    font-size: 90%;
   }
   .form__design input {
     width: 200px;
@@ -335,6 +339,9 @@ header li {
   }
   .form__design p {
     font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    margin: 5px;
   }
   /* Footer section MQ! */
   .social {
@@ -343,16 +350,23 @@ header li {
     justify-content: center;
   }
   .social ul {
-    justify-content: center;
+    justify-content: space-around;
   }
-  .social img {
+  .social div img {
     height: 50px;
+    align-self: center;
+  }
+  .social div {
+    flex-direction: column;
   }
   .social div p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .social div a {
     font-size: 1rem;
+  }
+  .social ul p {
+    font-size: 0.9rem;
   }
   /* End of Mediaquery! */
 }
