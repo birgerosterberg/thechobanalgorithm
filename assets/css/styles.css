@@ -198,7 +198,7 @@ header li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url("/assets/images/newsletter.png") no-repeat right bottom;
+  background: url("assets/images/newsletter.png") no-repeat right bottom;
   background-color: #a9907e;
   overflow: hidden;
   width: 100%;
