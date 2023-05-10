@@ -22,15 +22,20 @@ By presenting all this information on one page with links to different sections,
 
 - About
 
-  - Provides an overview of the website's purpose and goals, explaining the meaning of The Choban Algorithm.
+  - Explaining the meaning of The Choban Algorithm
+  - Provides an overview of the website's purpose and goals.
   - This section also includes information about the creator of the site and their motivations for creating it.
 
 - Inspiration
 
-  - Offers ideas and inspiration for living a more natural life. This section includes tips and resources on topics such as sustainable living, eco-friendly products, and healthy eating. The aim of this section is to provide users with practical ideas that they can incorporate into their daily lives.
+  - Youtube video link, that offers ideas and inspiration for living a more natural life through a trailer for a documentary.
+  - Will include tips and resources on topics such as sustainable living, eco-friendly products, and healthy eating.
+  - The aim of this section is to provide users with practical ideas that they can incorporate into their daily lives.
 
 - Permaculture
-  -Provides information on permaculture principles and practices. This section explains what permaculture is and offers resources and guides for those interested in implementing permaculture principles in their own lives.
+
+  - Provides information on permaculture principles and practices.
+  - This section explains what permaculture is and offers resources and guides for those interested in implementing permaculture principles in their own lives.
 
 - Gallery
 
@@ -45,7 +50,7 @@ By presenting all this information on one page with links to different sections,
 
 - Footer
 
-  -The footer contains links to the different social media pages that will be available in the future, but for now, they go to the basic pages of Instagram, Facebook, and YouTube.
+  -The footer contains links to the different social media pages that will be available in the future, but for now, they go to the basic pages of Instagram, Facebook, and YouTube
 
   - There is a mailto link with a made-up email address that makes it easy to send an email.
 
