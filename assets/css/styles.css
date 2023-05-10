@@ -48,6 +48,7 @@ h5,
 h6 {
   font-family: "Indie Flower", cursive;
 }
+/* Center text on a page style! */
 
 /* Header Section of CSS */
 
@@ -90,6 +91,12 @@ header li {
 
 /* About Section */
 
+/* style for h1 heading on the page */
+.heading__text {
+  text-align: center;
+  font-family: "Gloria Hallelujah", cursive;
+}
+/*  container for the About section  */
 .img__txt__about {
   display: flex;
   align-items: center;
@@ -126,8 +133,19 @@ header li {
   margin-left: 10px;
 }
 
+.map {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.map iframe {
+  border-radius: 5px;
+}
+.about__us {
+  margin: 5px;
+}
 /* Inspiration Section! */
 
+/* Container for the content in the section */
 .inspired {
   display: flex;
   flex-wrap: wrap;
@@ -136,6 +154,7 @@ header li {
   background-color: #a9907e;
   color: #000000;
 }
+
 .inspired__text {
   display: flex;
   flex-direction: column;
@@ -143,6 +162,7 @@ header li {
   text-shadow: #abc4aa 0px 0px 10px;
   font-weight: 900;
 }
+
 .inspired__text h2 {
   text-decoration: underline;
   margin-bottom: 6px;
