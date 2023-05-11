@@ -107,8 +107,6 @@ header li {
 }
 
 .img__txt__about img {
-  width: 320px;
-  height: 320px;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   /* border: solid 1px #000000; */

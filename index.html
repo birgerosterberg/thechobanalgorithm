@@ -21,8 +21,8 @@
 <body>
   <!-- Header Content, navbar and logo. -->
   <header>
-    <a href="index.html">
-      <img src="assets/images/logo.webp" alt="The Choban Algorithm logo" aria-label="Link back to home">
+    <a href="index.html" aria-label="Link back to home">
+      <img src="assets/images/logo.webp" width="250px" height="154px" alt="The Choban Algorithm logo">
     </a>
     <nav>
       <ul>
@@ -60,7 +60,12 @@
       </div>
       <h2 class="section__heading">But, what is the Choban Algorithm?</h2>
       <div class="img__txt__about">
-        <img src="assets/images/dream-sheep.webp" alt="sheep dreaming on the hillside">
+        <picture>
+          <source srcset="assets/images/dream-sheep320.webp" width="320px" height="320px" media="(max-width: 720px)">
+          <source srcset="assets/images/dream-sheep.webp" width="500px" height="500px">
+          <img src="assets/images/dream-sheep.webp" width="500px" height="500px" alt="sheep dreaming on the hillside">
+        </picture>
+
         <div class="para__about">
           <p>
             Choban is a word that evokes a sense of connection with nature, a
@@ -106,11 +111,19 @@
             <i class="pimp__icon fa-brands fa-pagelines fa-xl"></i>
           </p>
         </div>
-        <img src="assets/images/city-sheep.webp" alt="sheep lost in the city with businessman c">
+        <picture>
+          <source srcset="assets/images/city-sheep320.webp" width="320px" height="320px" media="(max-width: 720px)">
+          <source srcset="assets/images/city-sheep.webp" width="500px" height="500px">
+          <img src="assets/images/city-sheep.webp" alt="sheep lost in the city with businessman">
+        </picture>
       </div>
 
       <div class="img__txt__about">
-        <img src="assets/images/harmony-sheep.webp" alt="sheep on a magic farm enjoying life">
+        <picture>
+          <source srcset="assets/images/harmony-sheep320.webp" width="320px" height="320px" media="(max-width: 720px)">
+          <source srcset="assets/images/harmony-sheep.webp" width="500px" height="500px">
+          <img src="assets/images/harmony-sheep.webp" alt="sheep on a magic farm enjoying life">
+        </picture>
         <div class="para__about">
           <p>
             <span>The Choban Algorithm</span> is to love nature with a fierce
@@ -279,6 +292,7 @@
     </section>
     <!-- Gallery Section -->
     <section id="gallery">
+      <!-- Responsive Gallery, using different images depending on what device is used. -->
       <div class="galtainer">
         <picture>
           <source srcset="assets/images/magicearth320.webp" width="320px" height="213px" media="(max-width: 500px)">
@@ -338,7 +352,7 @@
   <footer>
     <div class="social">
       <div>
-        <img src="assets/images/seedling.webp" width="100px" height="100px" alt="Seedling image from the favicon">
+        <img src="assets/images/seedling.webp" width="100px" height="104px" alt="Seedling image from the favicon">
         <p>The Choban Algorithm 2023,</p>
         <a href="mailto:tca@thechobanalgorithm.com"
           aria-label="Mailto link that opens your mail program">tca@thechobanalgorithm.com</a>
@@ -362,4 +376,4 @@
   <!-- Fontawesome! -->
   <script src="https://kit.fontawesome.com/26aa5150aa.js" crossorigin="anonymous"></script>
 </body>
-</html>
+</html
