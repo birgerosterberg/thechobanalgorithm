@@ -37,7 +37,7 @@ a:hover {
 }
 
 a:visited {
-  color: #675d50;
+  color: #5d5d5d;
 }
 
 /* Making sure all different sized headings except h1 use the same kind of Font. */
@@ -48,8 +48,12 @@ h5,
 h6 {
   font-family: "Indie Flower", cursive;
 }
-/* Center text on a page style! */
-
+/* Center text on a page style for the h2 headings! */
+.section__heading {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 20px;
+}
 /* Header Section of CSS */
 
 header {
@@ -96,12 +100,13 @@ header li {
   text-align: center;
   font-family: "Gloria Hallelujah", cursive;
 }
+
 /*  container for the About section  */
 .img__txt__about {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 100px 0px 100px 0px;
+  padding: 50px 0px 100px 0px;
 }
 
 .img__txt__about img {
@@ -139,6 +144,8 @@ header li {
 }
 .map iframe {
   border-radius: 5px;
+  width: 600px;
+  height: 450px;
 }
 .about__us {
   margin: 5px;
@@ -148,7 +155,7 @@ header li {
 /* Container for the content in the section */
 .inspired {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #a9907e;
@@ -158,8 +165,10 @@ header li {
 .inspired__text {
   display: flex;
   flex-direction: column;
+
   width: 20%;
   text-shadow: #abc4aa 0px 0px 10px;
+  text-align: center;
   font-weight: 900;
 }
 
@@ -324,12 +333,13 @@ header li {
     order: 1;
     border-radius: 0px;
   }
+
   /* Inspiration */
   .inspired__text {
     text-align: center;
     width: 80%;
   }
-  .video {
+  .videos {
     width: 80%;
   }
 

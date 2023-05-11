@@ -1,6 +1,7 @@
 # The Choban Algorithm
 
-The Choban Algorithm is a website that was created for my first project assignment in the Code Institute course. Its purpose is to inspire people to live a more natural lifestyle. In the future, my dream is to further develop this site into a blog and possibly even a podcast. The primary goal of the Choban Algorithm is to provide inspiration for those seeking a natural way of life. \ View the live page [here](https://birgerosterberg.github.io/thechobanalgorithm/)
+The Choban Algorithm is a website that was created for my first project assignment in the Code Institute course. Its purpose is to inspire people to live a more natural lifestyle. In the future, my dream is to further develop this site into a blog and possibly even a podcast. The primary goal of the Choban Algorithm is to provide inspiration for those seeking a natural way of life. \
+View the live page [here](https://birgerosterberg.github.io/thechobanalgorithm/)
 
 ## Design
 
@@ -14,7 +15,7 @@ By presenting all this information on one page with links to different sections,
 
   - Its located at the top of the page and contains links to different sections of the website, including Home, About, Inspiration, Permaculture, Gallery, and Signup pages.
   - The menu is sticky, meaning it stays in place as users scroll down the page, making it easy to access at all times.
-  - The links are also designed with hover effects and a pointer cursor to make it clear to users what they can click on.
+  - The links are also designed with hover effects and a pointer cursor to make it clear to users what they can click on. \
     ![Navigation image](assets/readme/navigation.png)
 
 - Hero
