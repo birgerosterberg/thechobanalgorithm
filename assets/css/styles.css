@@ -277,9 +277,7 @@ header li {
   flex-direction: column;
   align-items: center;
 }
-.social img {
-  height: 100px;
-}
+
 .social div p {
   font-size: 1.2rem;
   margin: 5px;
@@ -389,10 +387,7 @@ header li {
   .social ul {
     justify-content: space-around;
   }
-  .social div img {
-    height: 50px;
-    align-self: center;
-  }
+
   .social div {
     flex-direction: column;
   }
