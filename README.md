@@ -15,7 +15,7 @@ By presenting all this information on one page with links to different sections,
   - Its located at the top of the page and contains links to different sections of the website, including Home, About, Inspiration, Permaculture, Gallery, and Signup pages.
   - The menu is sticky, meaning it stays in place as users scroll down the page, making it easy to access at all times.
   - The links are also designed with hover effects and a pointer cursor to make it clear to users what they can click on.
-    ![Navigation image](assets/images/navigation.png)
+    ![Navigation image](assets/readme/navigation.png)
 
 - Hero
 
