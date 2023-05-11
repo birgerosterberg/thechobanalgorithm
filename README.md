@@ -25,6 +25,7 @@ By presenting all this information on one page with links to different sections,
   - Explaining the meaning of The Choban Algorithm
   - Provides an overview of the website's purpose and goals.
   - This section also includes information about the creator of the site and their motivations for creating it.
+  - There is a Google Map embeded that shows off the site where the dream will take place!
 
 - Inspiration
 
@@ -50,8 +51,7 @@ By presenting all this information on one page with links to different sections,
 
 - Footer
 
-  -The footer contains links to the different social media pages that will be available in the future, but for now, they go to the basic pages of Instagram, Facebook, and YouTube
-
+  - Contains links to the different social media pages that will be available in the future, but for now, they go to the basic pages of Instagram, Facebook, and YouTube
   - There is a mailto link with a made-up email address that makes it easy to send an email.
 
 ## Tools and Technologies Used
