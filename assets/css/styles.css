@@ -133,16 +133,6 @@ header li {
   margin-left: 10px;
 }
 
-.map {
-  text-align: center;
-  padding-bottom: 20px;
-}
-.map iframe {
-  border-radius: 5px;
-  width: 600px;
-  height: 450px;
-}
-
 /* Inspiration Section! */
 
 /* Container for the content in the section */
@@ -331,11 +321,6 @@ header li {
     border-radius: 0px;
   }
 
-  .map {
-    width: 320px;
-    height: auto;
-  }
-
   /* Inspiration */
   .inspired__text {
     text-align: center;
@@ -349,6 +334,11 @@ header li {
   .perma__container p {
     width: 80%;
     font-size: 1.1rem;
+  }
+  .perma__container a {
+    padding: 10px;
+    font-size: 1rem;
+    color: green;
   }
 
   /* Signup section */
