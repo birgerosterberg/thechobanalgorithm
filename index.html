@@ -22,7 +22,11 @@
   <!-- Header Content, navbar and logo. -->
   <header>
     <a href="index.html" aria-label="Link back to home">
-      <img src="assets/images/logo.webp" width="250" height="154" alt="The Choban Algorithm logo">
+      <picture>
+        <source srcset="assets/images/logo.webp" width="200" height="123" media="(max-width: 720px)">
+        <source srcset="assets/images/logo.webp" width="250" height="157">
+        <img src="assets/images/logo.webp" width="320" height="201" alt="The Choban Algorithm logo">
+      </picture>
     </a>
     <nav>
       <ul>
@@ -56,7 +60,7 @@
       <div class="heading__text">
         <h1>Welcome to The Choban Algorithm</h1>
       </div>
-      <h2 class="section__heading">But, what is the Choban Algorithm?</h2>
+      <h2 class="section__heading">What is all of this?</h2>
       <div class="img__txt__about">
         <picture>
           <source srcset="assets/images/dream-sheep320.webp" width="320" height="320" media="(max-width: 720px)">

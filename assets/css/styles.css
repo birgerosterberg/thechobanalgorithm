@@ -51,6 +51,7 @@ h2 {
   text-decoration: underline;
   margin-top: 20px;
 }
+
 /* Header Section of CSS */
 
 header {
@@ -153,7 +154,6 @@ header li {
   flex-direction: column;
 
   width: 30%;
-  text-shadow: #abc4aa 0px 0px 10px;
   text-align: center;
   font-weight: 900;
 }
@@ -295,7 +295,8 @@ header li {
   }
   header li {
     font-size: 0.9rem;
-    padding: 5px;
+    padding: 10px;
+    margin: 0;
   }
   header img {
     width: 200px;
@@ -340,7 +341,10 @@ header li {
     font-size: 1rem;
     color: green;
   }
-
+  /* Gallery queries */
+  .galtainer img {
+    margin: 10px 0px 10px 0px;
+  }
   /* Signup section */
   .signup__container {
     height: 300px;
