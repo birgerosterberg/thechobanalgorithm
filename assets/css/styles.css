@@ -1,5 +1,3 @@
-/* Import of Google Fonts */
-
 /* Reset CSS */
 
 * {
@@ -86,7 +84,7 @@ header li {
   background: url("../../assets/images/choban-hero.webp") no-repeat center
     center;
   background-size: cover;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 /* About Section */
@@ -116,7 +114,6 @@ header li {
   width: 40%;
   background-color: rgba(243, 222, 186, 0.2);
   padding: 20px;
-  /* border: solid 1px rgb(169, 144, 126); */
   border-radius: 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -144,7 +141,7 @@ header li {
   color: #000000;
 }
 .inspired a {
-  color: green;
+  color: rgba(32, 76, 57, 1);
 }
 
 .inspired__text {
@@ -231,6 +228,10 @@ header li {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
+.form__design label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
 .form__design input[type="email"]:focus {
   background-color: rgba(243, 222, 186, 1);
 }
@@ -304,7 +305,7 @@ header li {
   .hero {
     background: url("../../assets/images/choban-hero1024.webp") no-repeat center
       center;
-    height: 38vh;
+    height: 21vh;
   }
   /* About Section MQ! */
   .img__txt__about {
