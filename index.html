@@ -17,11 +17,20 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
   <link rel="manifest" href="assets/favicon/site.webmanifest">
+  <!-- Google fonts loading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Indie+Flower&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet">
+
+
 </head>
 <body>
   <!-- Header Content, navbar and logo. -->
   <header>
     <a href="index.html" aria-label="Link back to home">
+      <!-- Added responsive logo for loadspeed on mobile -->
       <picture>
         <source srcset="assets/images/logo.webp" width="200" height="123" media="(max-width: 720px)">
         <source srcset="assets/images/logo.webp" width="250" height="157">
@@ -61,7 +70,9 @@
         <h1>Welcome to The Choban Algorithm</h1>
       </div>
       <h2 class="section__heading">What is all of this?</h2>
+      <!-- Container for the paragraph and the image -->
       <div class="img__txt__about">
+        <!-- Responsive image loading! -->
         <picture>
           <source srcset="assets/images/dream-sheep320.webp" width="320" height="320" media="(max-width: 720px)">
           <source srcset="assets/images/dream-sheep.webp" width="500" height="500">
@@ -237,6 +248,7 @@
             website!
           </p>
         </div>
+        <!-- YouTube videos, added the line loading="lazy" for performance upgrade -->
         <iframe class="videos" src="https://www.youtube.com/embed/fcQKWkpPB3U?controls=0" loading="lazy"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

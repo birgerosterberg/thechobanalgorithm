@@ -1,7 +1,5 @@
 /* Import of Google Fonts */
 
-@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Indie+Flower&family=Ubuntu:wght@300&display=swap");
-
 /* Reset CSS */
 
 * {
@@ -76,7 +74,7 @@ header ul {
 /* Navigation List designs */
 header li {
   list-style: none;
-  margin: 15px;
+  margin: 10px;
   font-size: 1.2rem;
 }
 
@@ -88,7 +86,7 @@ header li {
   background: url("../../assets/images/choban-hero.webp") no-repeat center
     center;
   background-size: cover;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 /* About Section */
@@ -104,7 +102,7 @@ header li {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 50px 0px 100px 0px;
+  padding: 20px 0px 20px 0px;
 }
 
 .img__txt__about img {
@@ -117,7 +115,7 @@ header li {
   height: 40%;
   width: 40%;
   background-color: rgba(243, 222, 186, 0.2);
-  padding: 40px;
+  padding: 20px;
   /* border: solid 1px rgb(169, 144, 126); */
   border-radius: 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
@@ -165,7 +163,7 @@ header li {
 .videos {
   width: 560px;
   height: 315px;
-  margin: 100px 0px 100px 0px;
+  margin: 20px 0px 20px 0px;
   border-radius: 10%;
 }
 
@@ -178,14 +176,14 @@ header li {
   justify-content: center;
   width: 100%;
   background-color: #f3deba;
-  padding: 100px 0px 100px 0px;
+  padding: 20px 0px 20px 0px;
 }
 .perma__container p {
   width: 40%;
   padding: 10px;
 }
 .perma__container img {
-  margin-top: 50px;
+  margin-top: 20px;
   border-radius: 5px;
 }
 
@@ -195,7 +193,7 @@ header li {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 100px 0px 100px 0px;
+  padding: 20px 0px 20px 0px;
 }
 
 .galtainer img {
@@ -295,7 +293,7 @@ header li {
   }
   header li {
     font-size: 0.9rem;
-    padding: 10px;
+    padding: 5px;
     margin: 0;
   }
   header img {
@@ -306,6 +304,7 @@ header li {
   .hero {
     background: url("../../assets/images/choban-hero1024.webp") no-repeat center
       center;
+    height: 38vh;
   }
   /* About Section MQ! */
   .img__txt__about {
