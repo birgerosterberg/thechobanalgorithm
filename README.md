@@ -79,6 +79,120 @@ By presenting all this information on one page with links to different sections,
 - balsamiq
   - wireframes were created using balsamiq from https://balsamiq.com/
 
+---
+
+## Testing
+
+---
+
+### Responsiveness
+
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge and Firefox browsers.
+
+Steps to test:
+
+Open browser and navigate to The Choban Algorithm
+Open the developer tools (right click and inspect)
+Set to responsive and decrease width to 320px
+Set the zoom to 50%
+Click and drag the responsive window to maximum width
+
+Expected:
+
+Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.
+
+Actual:
+
+Website behaved as expected.
+
+Website was also opened on the following devices and no responsive issues were seen:
+
+iPhone 14 (iOS - Safari)
+iPhone 13 Pro Max (iOS - Safari - Brave Browser)
+iPhone 11 (iOS - Safari)
+iPhone 8 (iOS - Safari)
+Samsung A8 (Android - Samsung Browser)
+Oneplus Nord 2 (Android - Chrome)
+iPad 10" (iOS - Safari)
+
+Accessibility
+Wave Accessibility tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
+
+Testing was focused to ensure the following criteria were met:
+
+All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
+Color contrasts meet a minimum ratio as specified in WCAG 2.1 Contrast Guidelines
+Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
+All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
+All not textual content had alternative text or titles so descriptions are read out to screen readers
+HTML page lang attribute has been set
+Aria properties have been implemented correctly
+WCAG 2.1 Coding best practices being followed
+Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
+
+---
+
+### Lighthouse Testing
+
+---
+
+I strived to achieve near-perfect scores across all metrics, aiming for a solid 100. Though it proved to be a challenging endeavor, I ultimately triumphed. It's remarkable how even the tiniest modifications can have a significant impact on performance. The primary obstacle I encountered was the subpar quality of the image files I possessed, which dragged down my Best Practices rating. Unfortunately, there wasn't much I could do to enhance them, as the initial quality of the files was rather obscure.
+
+---
+
+|                                       Mobile                                       |                                       Desktop                                       |
+| :--------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
+| ![Mobile lighthouse index](assets/readme/Sk%C3%A4rmbild%202023-05-15%20215823.png) | ![Desktop Lighthouse index](assets/readme/Sk%C3%A4rmbild%202023-05-15%20215902.png) |
+|        ![Alt text](assets/readme/Sk%C3%A4rmbild%202023-05-15%20220617.png)         |         ![Alt text](assets/readme/Sk%C3%A4rmbild%202023-05-15%20220650.png)         |
+|                        ![Alt text](assets/readme/404m.png)                         |                         ![Alt text](assets/readme/404d.png)                         |
+
+### Functional Testing
+
+#### Navigation Links
+
+I thoroughly tested all the navigation links across the three different pages, and I'm pleased to report that they successfully directed me to the intended destinations.
+Given the one-page design I employed, I had to assign section IDs to enable seamless navigation to specific sections within the page.
+In the case of the 404.html and thanks.html pages, I had to utilize the index.html#ID format in order to navigate to the desired section. \
+Like this: \
+ `<a href="index.html#gallery" aria-label="Link to the gallery part of the page">Gallery</a>`
+
+---
+
+#### Form
+
+The form on the home page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
+
+**Scenario One - Correct Inputs**
+
+Steps to test:
+
+1. Navigate to [The Choban Algorithm](https://birgerosterberg.github.io/thechobanalgorithm/index.html#signup)
+2. You see will the newsletter signup, now input the following data: \
+   Email: chob@an.com
+3. Click Submit \
+   User should be redirected to thanks.html as a confirmation page with a thank you!
+
+Expected: \
+Form submits with no warnings or errors and user is redirected to thanks.html confirmation page.
+
+Actual:\
+Website behaved as expected with no errors or warnings and redirected to thanks.html.
+
+**Scenario Two - Missing Required Email**
+
+Steps to test:
+
+1. Navigate to [The Choban Algorithm](https://birgerosterberg.github.io/thechobanalgorithm/index.html#signup)
+2. You see will the newsletter signup, now input the following data: \
+   Email:
+3. Click Submit
+
+Expected: \
+You cant submit and an Error is displayed to tell the user that the field is required.
+
+Actual: \
+Website behaved as expected, error message was displayed and the form did not submit.
+
 ## Media
 
 Images was taken from www.pexels.com

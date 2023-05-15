@@ -1,68 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Birger Österberg" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Birger Österberg">
   <meta name="description"
-    content="The Choban Algorithm, a philosophy about taking your own paths in life and away to a life more connected with nature." />
+    content="The Choban Algorithm, a philosophy about taking your own paths in life and away to a life more connected with nature.">
   <meta name="keywords"
-    content="nature,permaculture,farming,offgrid,philosophy,sweden,gotland,gardening,permaculture,garden hacks,new ways of life, newstart" />
+    content="nature,permaculture,farming,offgrid,philosophy,sweden,gotland,gardening,permaculture,garden hacks,new ways of life, newstart">
   <title>The Choban Algorithm</title>
-  <link rel="icon" type="image/x-icon" href="assets/images/favicon.webp" />
   <!-- Link for CSS File! -->
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <!-- Links added to have a working favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon/site.webmanifest">
+  <!-- Google fonts loading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Indie+Flower&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet">
+
+
 </head>
 <body>
   <!-- Header Content, navbar and logo. -->
   <header>
-    <a href="index.html">
-      <img src="assets/images/logo.webp" alt="The Choban Algorithm logo" />
+    <a href="index.html" aria-label="Link back to home">
+      <!-- Added responsive logo for loadspeed on mobile -->
+      <picture>
+        <source srcset="assets/images/logo.webp" width="200" height="123" media="(max-width: 720px)">
+        <source srcset="assets/images/logo.webp" width="250" height="157">
+        <img src="assets/images/logo.webp" width="320" height="201" alt="The Choban Algorithm logo">
+      </picture>
     </a>
+    <!-- Sticky Navigation bar for the whole page! -->
     <nav>
       <ul>
         <li>
-          <a href="index.html"><i class="fa-solid fa-house fa-lg"></i></a>
+          <a href="index.html" aria-label="Link back to home"><i class="fa-solid fa-house fa-lg"></i></a>
         </li>
         <li>
-          <a href="index.html#about">About</a>
+          <a href="index.html#about" aria-label="Link to the about part of the page">About</a>
         </li>
         <li>
-          <a href="index.html#inspiration">Inspiration</a>
+          <a href="index.html#inspiration" aria-label="Link to the inspiration part of the page">Inspiration</a>
         </li>
         <li>
-          <a href="index.html#permaculture">Permaculture</a>
+          <a href="index.html#permaculture" aria-label="Link to the permaculture part of the page">Permaculture</a>
         </li>
         <li>
-          <a href="index.html#gallery">Gallery</a>
+          <a href="index.html#gallery" aria-label="Link to the gallery part of the page">Gallery</a>
         </li>
         <li>
-          <a href="index.html#signup">Sign Up</a>
+          <a href="index.html#signup" aria-label="Link to the signup part of the page">Sign Up</a>
         </li>
       </ul>
     </nav>
   </header>
-  <main></main>
+  <main>
+    <div class="seed">
+      <picture>
+        <source srcset="assets/images/city-sheep320.webp" width="320" height="320" media="(max-width: 720px)">
+        <source srcset="assets/images/city-sheep.webp" width="500" height="500">
+        <img src="assets/images/city-sheep.webp" alt="sheep lost in the city with businessman">
+      </picture>
+      <h1>Ooooops!</h1>
+      <p>404 Plant not found! You have tried to reach a seed that has not yet been planted, please navigate back to the
+        page from the menu bar at top of this page!</p>
+    </div>
+  </main>
   <footer>
     <div class="social">
       <div>
-        <img src="assets/images/favicon.webp" alt="Seed image from the favicon" />
+        <img src="assets/images/seedling.webp" width="100" height="104" alt="Seedling image from the favicon">
         <p>The Choban Algorithm 2023,</p>
-        <a href="mailto:tca@thechobanalgorithm.com">tca@thechobanalgorithm.com</a>
+        <a href="mailto:tca@thechobanalgorithm.com"
+          aria-label="Mailto link that opens your mail program">tca@thechobanalgorithm.com</a>
       </div>
       <ul>
         <li>
-          <p>Check out our social media platforms:</p>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener"
+            aria-label="Link to Instagram (Opens in new tab)"><i
+              class="pimp__icon fa-brands fa-square-instagram fa-2xl"></i></a>
         </li>
         <li>
-          <a href="www.instagram.com"><i class="pimp__icon fa-brands fa-square-instagram fa-2xl"></i></a>
+          <a href="https://www.youtube.com" target="_blank" rel="noopener"
+            aria-label="Link to Youtube(Opens in new tab)"><i class="pimp__icon fa-brands fa-youtube fa-2xl"></i></a>
         </li>
         <li>
-          <a href="www.youtube.com"><i class="pimp__icon fa-brands fa-youtube fa-2xl"></i></a>
-        </li>
-        <li>
-          <a href="www.facebook.com"><i class="pimp__icon fa-brands fa-square-facebook fa-2xl"></i></a>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener"
+            aria-label="Link to Facebook(Opens in new tab)"><i
+              class="pimp__icon fa-brands fa-square-facebook fa-2xl"></i></a>
         </li>
       </ul>
     </div>

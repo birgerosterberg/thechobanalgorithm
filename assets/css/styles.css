@@ -106,7 +106,6 @@ header li {
 .img__txt__about img {
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  /* border: solid 1px #000000; */
 }
 
 .para__about {
@@ -279,8 +278,24 @@ header li {
   padding: 10px;
 }
 
-/* thanks.html css starts here.*/
-
+/* thanks.html and 404.html css starts here.*/
+.seed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.seed img {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.seed h1 {
+  font-family: "Gloria Hallelujah", cursive;
+}
+.seed p {
+  text-align: center;
+  width: 500px;
+}
 /* MediaQueries section! */
 
 @media only screen and (max-width: 1024px) {
@@ -333,6 +348,7 @@ header li {
 
   /* Permaculture */
   .perma__container p {
+    text-align: center;
     width: 80%;
     font-size: 1.1rem;
   }
@@ -387,6 +403,12 @@ header li {
     font-size: 0.9rem;
   }
   .social div a {
+    font-size: 1rem;
+  }
+  /* thanks.html and 404.html mediaqueries starts here.*/
+
+  .seed p {
+    width: 300px;
     font-size: 1rem;
   }
 
