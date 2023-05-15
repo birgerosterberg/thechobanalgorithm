@@ -1,15 +1,26 @@
-# The Choban Algorithm
+<div style="text-align: center">
+<img src="assets/images/logo.webp" alt="Logo for choban algorithm!">
+<h1>The Choban Algorithm</h1>
+</div>
 
 The Choban Algorithm is a website that was created for my first project assignment in the Code Institute course. Its purpose is to inspire people to live a more natural lifestyle. In the future, my dream is to further develop this site into a blog and possibly even a podcast. The primary goal of the Choban Algorithm is to provide inspiration for those seeking a natural way of life. \
 View the live page [here](https://birgerosterberg.github.io/thechobanalgorithm/)
 
+---
+
 ## Design
+
+---
 
 The Choban Algorithm website is designed as a one-page website with links to different parts of the page. This layout provides a smooth and seamless experience for users who can easily navigate through the different sections of the site. The navigation menu at the top of the page is sticky, meaning it stays in place as users scroll down the page, making it easy to access at all times. Each section of the page has its own unique content.
 
 By presenting all this information on one page with links to different sections, users can easily find what they're looking for without having to navigate through multiple pages. The result is a user-friendly and visually appealing website that encourages visitors to explore and engage with the content.
 
+---
+
 ## Features
+
+---
 
 - Navigation
 
@@ -65,7 +76,7 @@ By presenting all this information on one page with links to different sections,
 - Visual Studio Code
   - The website was developed with Visual Studio Code as the IDE.
 - GitHub
-  - Source code is hosted on GitHub and delpoyed using Git Pages.
+  - Source code is hosted on GitHub and deployed using Git Pages.
 - GitKraken
   - https://www.gitkraken.com/ was used to commit and push code during development.
 - Font Awesome
@@ -85,7 +96,7 @@ By presenting all this information on one page with links to different sections,
 
 ---
 
-### Responsiveness
+### **Responsiveness**
 
 All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge and Firefox browsers.
 
@@ -115,28 +126,37 @@ Samsung A8 (Android - Samsung Browser)
 Oneplus Nord 2 (Android - Chrome)
 iPad 10" (iOS - Safari)
 
-Accessibility
+---
+
+### **Accessibility**
+
+---
+
 Wave Accessibility tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
 
 Testing was focused to ensure the following criteria were met:
 
-All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
-Color contrasts meet a minimum ratio as specified in WCAG 2.1 Contrast Guidelines
-Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
-All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
-All not textual content had alternative text or titles so descriptions are read out to screen readers
-HTML page lang attribute has been set
-Aria properties have been implemented correctly
-WCAG 2.1 Coding best practices being followed
-Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
+- All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
+- Color contrasts meet a minimum ratio as specified in WCAG 2.1 Contrast Guidelines
+- Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
+- All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
+- All not textual content had alternative text or titles so descriptions are read out to screen readers
+- HTML page lang attribute has been set
+- Aria properties have been implemented correctly
+- WCAG 2.1 Coding best practices being followed
+- Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
 
 ---
 
-### Lighthouse Testing
+### **Lighthouse Testing**
 
 ---
 
-I strived to achieve near-perfect scores across all metrics, aiming for a solid 100. Though it proved to be a challenging endeavor, I ultimately triumphed. It's remarkable how even the tiniest modifications can have a significant impact on performance. The primary obstacle I encountered was the subpar quality of the image files I possessed, which dragged down my Best Practices rating. Unfortunately, there wasn't much I could do to enhance them, as the initial quality of the files was rather obscure.
+I strived to achieve near-perfect scores across all metrics, aiming for a solid 100. \
+Though it proved to be a challenging endeavor, i ultimately triumphed. \
+It's remarkable how even the tiniest modifications can have a significant impact on performance. \
+The primary obstacle I encountered was the subpar quality of the image files I possessed, which dragged down my Best Practices rating. \
+Unfortunately, there wasn't much I could do to enhance them, as the initial quality of the files was rather obscure.
 
 ---
 
@@ -148,7 +168,7 @@ I strived to achieve near-perfect scores across all metrics, aiming for a solid 
 
 ### Functional Testing
 
-#### Navigation Links
+#### **Navigation Links**
 
 I thoroughly tested all the navigation links across the three different pages, and I'm pleased to report that they successfully directed me to the intended destinations.
 Given the one-page design I employed, I had to assign section IDs to enable seamless navigation to specific sections within the page.
@@ -158,7 +178,7 @@ Like this: \
 
 ---
 
-#### Form
+#### **Form**
 
 The form on the home page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
 
@@ -192,6 +212,22 @@ You cant submit and an Error is displayed to tell the user that the field is req
 
 Actual: \
 Website behaved as expected, error message was displayed and the form did not submit.
+
+---
+
+## Deployment
+
+---
+
+### **Version Control**
+
+The site was created using Visual Studio code IDE and pushed to github to the remote repository [thechobanalgorithm](https://github.com/birgerosterberg/thechobanalgorithm).
+
+I have developed this project using two different Windows computers: one laptop and one stationary desktop. I have kept the code up to date throughout my work by a tool called [GitKraken](https://gitkraken.com), which provides an outstanding overview of my workflow. Its graphical user interface allows me to track my commits throughout the entire project and clearly indicates which system I used for each commit. This fortunate knowledge helps me locate the original files easily if I need to rework something.
+
+![GitKraken view](assets/readme/Sk%C3%A4rmbild%202023-05-15%20233857.png)
+
+During this process i have also had the choice to use the terminal in GitKraken to use commands such as git pull, git add, git commit and git push. However i rarely been using this since shown in the user interface of GitKraken it is very powerful in its way with Git.
 
 ## Media
 
