@@ -365,7 +365,12 @@
   <footer>
     <div class="social">
       <div>
-        <img src="assets/images/seedling.webp" width="100" height="104" alt="Seedling image from the favicon">
+        <picture>
+          <source srcset="assets/images/seedling.webp" width="50" height="52" media="(max-width: 500px)">
+          <source srcset="assets/images/seedling.webp" width="100" height="104">
+          <img src="assets/images/seedling.webp" width="100" height="104" alt="Seedling image from the favicon">
+        </picture>
+
         <p>The Choban Algorithm 2023,</p>
         <a href="mailto:tca@thechobanalgorithm.com"
           aria-label="Mailto link that opens your mail program">tca@thechobanalgorithm.com</a>

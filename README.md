@@ -326,4 +326,3 @@ Fonts from: https://google.com/fonts \
 Icons from: https://fontawesome.com/icons \
 Shadows from: https://getcssscan.com/css-box-shadow-examples \
 Special mention for guidance and inspiration to [Gareth McGirr](https://github.com/Gareth-McGirr/) \
-Texts on website written by my fiancée [Linda Tervo](mailto:linda.s.tervo@gmail.com) who also is a part of The Choban Algorithm! \

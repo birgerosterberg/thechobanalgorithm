@@ -105,6 +105,7 @@ header li {
 
 .img__txt__about img {
   border-radius: 5px;
+  /* Borrowed style see readme Credits section */
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
@@ -114,6 +115,7 @@ header li {
   background-color: rgba(243, 222, 186, 0.2);
   padding: 20px;
   border-radius: 5px;
+  /* Borrowed style see readme Credits section */
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
@@ -224,6 +226,7 @@ header li {
   padding: 15px;
   width: 300px;
   font-size: 1.3rem;
+  /* Borrowed style see readme Credits section */
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
@@ -239,6 +242,7 @@ header li {
   border-radius: 15px;
   padding: 15px;
   font-size: 1.2rem;
+  /* Borrowed style see readme Credits section */
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   cursor: pointer;
@@ -287,6 +291,7 @@ header li {
   padding: 20px;
 }
 .seed img {
+  /* Borrowed style see readme Credits section */
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .seed h1 {
