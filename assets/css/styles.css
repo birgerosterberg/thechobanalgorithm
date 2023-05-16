@@ -332,11 +332,14 @@ header li {
     flex-wrap: wrap;
     padding: 20px 0px 20px 0px;
   }
+  /* Had to change order when in mobile view for pictures to align right */
   .para__about {
     order: 2;
     width: 80%;
     font-size: 1.1rem;
   }
+  /* Had to change order when in mobile view for pictures to align right */
+
   .img__txt__about img {
     order: 1;
     border-radius: 0px;
