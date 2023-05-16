@@ -274,6 +274,17 @@ The form does not submit and an Error is displayed to tell the user that a valid
 Actual: \
 Website behaved as expected, error message was displayed and the form did not submit.
 
+### Validation
+
+HTML Validated by: [w3c](https://validator.w3.org/)
+
+![index.html w3c](assets/readme/w3ci.png)
+![thanks.html w3c](assets/readme/thanksw3c.png)
+![404.html w3c](assets/readme/404w3c.png)
+
+CSS Validated by: [Jigsaw](https://jigsaw.w3.org/css-validator/)
+![JigSaw CSS](assets/readme/jigsawcss.png)
+
 ## Deployment
 
 ---
@@ -289,15 +300,17 @@ I have developed this project using two different Windows computers: one laptop 
 During this process i have also had the choice to use the terminal in GitKraken to use commands such as git pull, git add, git commit and git push. However i rarely been using this since shown in the user interface of GitKraken it is very powerful in its way with Git.
 
 Due to me using GitKraken and two computers i have made a major mistake when setting up my account and commit signature...
+
 ![Alt text](assets/readme/Sk%C3%A4rmbild%202023-05-16%20185515.png)
+
 As you can see on the screenshot i took i misspelled my email for the commit signature and wrote: birger.oesterber@gmail.com
-instead of birger.oesterberg@gmail.com that is my email address... Now i have worked on this project for a longtime and feel quite sad that this mistake happened and it is my own fault, i hope you will understand when grading this project that it is a very stupid mistake done by me! \
+instead of birger.oesterberg@gmail.com that is my email address... Now i have worked on this project for a longtime and feel quite sad that this mistake happened and it is my own fault, i hope you will understand when grading this project that it is a very stupid mistake done by me, that never will happen again, a very stressful way to learn by doing this mistake.
 
 I also send you a screenshot of the repository in GitHub that shows no one else then me have had access to this.
 
 ![Alt text](assets/readme/Sk%C3%A4rmbild%202023-05-16%20203407.png)
 
-This is how it was setup on the computer with the right email that have commits from birgerosterberg \
+This is how it was setup on the computer with the right email that have commits from birgerosterberg
 
 ![Alt text](assets/readme/Sk%C3%A4rmbild%202023-05-16%20184111.png)
 
