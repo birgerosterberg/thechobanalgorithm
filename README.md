@@ -281,6 +281,11 @@ I have developed this project using two different Windows computers: one laptop 
 
 During this process i have also had the choice to use the terminal in GitKraken to use commands such as git pull, git add, git commit and git push. However i rarely been using this since shown in the user interface of GitKraken it is very powerful in its way with Git.
 
+Due to me using GitKraken and two computers i have made a major mistake when setting up my account and commit signature...
+![Alt text](assets/readme/Sk%C3%A4rmbild%202023-05-16%20185515.png)
+As you can see on the screenshot i took i misspelled my email for the commit signature and wrote: birger.oesterber@gmail.com
+instead of birger.oesterberg@gmail.com that is my email address... Now i have worked on this project for a longtime and feel quite sad that this mistake happened and it is my own fault, i hope you will understand when grading this project that it is a very stupid mistake done by me!
+
 ### **Deployment to Github Pages**
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
