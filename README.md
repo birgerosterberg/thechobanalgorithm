@@ -301,18 +301,18 @@ During this process i have also had the choice to use the terminal in GitKraken 
 
 Due to me using GitKraken and two computers i have made a major mistake when setting up my account and commit signature...
 
-![Alt text](assets/readme/Sk%C3%A4rmbild%202023-05-16%20185515.png)
+![GitKraken Proof1](assets/readme/Sk%C3%A4rmbild%202023-05-16%20185515.png)
 
 As you can see on the screenshot i took i misspelled my email for the commit signature and wrote: birger.oesterber@gmail.com
 instead of birger.oesterberg@gmail.com that is my email address... Now i have worked on this project for a longtime and feel quite sad that this mistake happened and it is my own fault, i hope you will understand when grading this project that it is a very stupid mistake done by me, that never will happen again, a very stressful way to learn by doing this mistake.
 
 I also send you a screenshot of the repository in GitHub that shows no one else then me have had access to this.
 
-![Alt text](assets/readme/Sk%C3%A4rmbild%202023-05-16%20203407.png)
+![GitKraken Proof2](assets/readme/Sk%C3%A4rmbild%202023-05-16%20203407.png)
 
 This is how it was setup on the computer with the right email that have commits from birgerosterberg
 
-![Alt text](assets/readme/Sk%C3%A4rmbild%202023-05-16%20184111.png)
+![GitKraken Proof3](assets/readme/Sk%C3%A4rmbild%202023-05-16%20184111.png)
 
 I have also when working on the test project [I Love Running](https://github.com/birgerosterberg/iloverunning/commits/main) only used my wrongly configured computer, i can also trace back most of my GitHub projects to this issue, since my "main" stationary computer been wrongly setup for a long long time!
 
@@ -353,3 +353,4 @@ Fonts from: https://google.com/fonts \
 Icons from: https://fontawesome.com/icons \
 Shadows from: https://getcssscan.com/css-box-shadow-examples \
 Special mention for guidance and inspiration to [Gareth McGirr](https://github.com/Gareth-McGirr/)
+Text about permaculture taken from [Wikipedia](https://en.wikipedia.org/wiki/Permaculture)
