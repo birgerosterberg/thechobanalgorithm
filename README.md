@@ -16,58 +16,93 @@ The Choban Algorithm website is designed as a one-page website with links to dif
 
 By presenting all this information on one page with links to different sections, users can easily find what they're looking for without having to navigate through multiple pages. The result is a user-friendly and visually appealing website that encourages visitors to explore and engage with the content.
 
+### Fonts
+
+|                  Ubuntu                  |                  Gloria Halleluja                  |                  Indie Flower                   |
+| :--------------------------------------: | :------------------------------------------------: | :---------------------------------------------: |
+| ![Ubuntu font](assets/readme/ubuntu.png) | ![Gloria Halleluja font](assets/readme/gloria.png) | ![Indie Flower font](assets/readme/iflower.png) |
+
+### Color scheme
+
+![Color Palette](assets/readme/Sk%C3%A4rmbild%202023-05-16%20144322.png)
+
+### Wireframes / Mockups
+
+![Alt text](assets/readme/wffp.jpg)
+
 ---
 
 ## Features
 
 ---
 
-- Navigation
+- **Navigation**
 
   - Its located at the top of the page and contains links to different sections of the website, including Home, About, Inspiration, Permaculture, Gallery, and Signup pages.
   - The menu is sticky, meaning it stays in place as users scroll down the page, making it easy to access at all times.
   - The links are also designed with hover effects and a pointer cursor to make it clear to users what they can click on. \
     ![Navigation image](assets/readme/navigation.png)
 
-- Hero
+- **Hero**
 
-  - This is the first thing that catches the user's eye and features a captivating image that piques their curiosity and draws them into the site. This section is designed to keep the user guessing about what the site is really about, opening up curiosity and encouraging them to explore further
+  - This is the first thing that catches the user's eye and features a captivating image that piques their curiosity and draws them into the site. This section is designed to keep the user guessing about what the site is really about, opening up curiosity and encouraging them to explore further \
+    ![hero image](assets/images/choban-hero1024.webp)
 
-- About
+- **About**
 
   - Explaining the meaning of The Choban Algorithm
   - Provides an overview of the website's purpose and goals.
-  - This section also includes information about the creator of the site and their motivations for creating it.
-  - There is a Google Map embeded that shows off the site where the dream will take place!
+  - This section also includes information about me and their motivations for creating it. \
+    ![about](assets/readme/aboutp.png)![about](assets/readme/aboutp2.png)![about](assets/readme/aboutp3.png) \
+    ![about](assets/readme/abouts.png)
 
-- Inspiration
+- **Inspiration**
 
-  - Youtube video link, that offers ideas and inspiration for living a more natural life through a trailer for a documentary.
+  - Youtube video links, that offers ideas and inspiration for living a more natural life.
   - Will include tips and resources on topics such as sustainable living, eco-friendly products, and healthy eating.
-  - The aim of this section is to provide users with practical ideas that they can incorporate into their daily lives.
+  - The aim of this section is to provide users with practical ideas that they can incorporate into their daily lives. \
+    ![Alt text](assets/readme/inspires.png)
 
-- Permaculture
+- **Permaculture**
 
   - Provides information on permaculture principles and practices.
-  - This section explains what permaculture is and offers resources and guides for those interested in implementing permaculture principles in their own lives.
+  - This section explains what permaculture is and offers resources and guides for those interested in implementing permaculture principles in their own lives. \
+    ![Alt text](assets/readme/permas.png)
 
-- Gallery
+- **Gallery**
 
   - Showcases stunning images of nature and sustainable living.
-  - Includes a collection of images that are designed to inspire users and encourage them to appreciate the beauty of nature.
+  - Includes a collection of images that are designed to inspire users and encourage them to appreciate the beauty of nature. \
+    ![Alt text](assets/readme/gallerys.png)
 
-- Signup
+- **Signup**
 
   - Offers users the opportunity to sign up for a newsletter or updates on future blog posts or podcasts(In the future!).
-  - Includes a simple form that users can fill out to receive updates from the website.
-  - The aim of this section is to encourage users to engage with the website and become part of the community.
+  - Includes a simple form with only an email required that users can fill out to receive updates from the website.
+  - The aim of this section is to encourage users to engage with the website and become part of the community. \
+    ![Alt text](assets/readme/signs.png)
 
-- Footer
+- **Footer**
 
   - Contains links to the different social media pages that will be available in the future, but for now, they go to the basic pages of Instagram, Facebook, and YouTube
-  - There is a mailto link with a made-up email address that makes it easy to send an email.
+  - There is a mailto link with a made-up email address that makes it easy to send an email. \
+    ![Alt text](assets/readme/footers.png)
+
+- **404.html**
+
+  - Contains an error screen where users are taken if they try to reach something that does not exist on this site. There is also the navbar from above on this page to get back \
+    ![Alt text](assets/readme/404s.png)
+
+- **thanks.html**
+
+  - Is the page the user is directed to when signed up to for the newsletter. There is also the navbar from above on this page to get back \
+    ![Alt text](assets/readme/thanks.png)
+
+---
 
 ## Tools and Technologies Used
+
+---
 
 - HTML
   - The main structure of the site was developed using HTML.
@@ -118,12 +153,12 @@ Website behaved as expected.
 
 Website was also opened on the following devices and no responsive issues were seen:
 
-iPhone 14 (iOS - Safari)
-iPhone 13 Pro Max (iOS - Safari - Brave Browser)
-iPhone 11 (iOS - Safari)
-iPhone 8 (iOS - Safari)
-Samsung A8 (Android - Samsung Browser)
-Oneplus Nord 2 (Android - Chrome)
+iPhone 14 (iOS - Safari) \
+iPhone 13 Pro Max (iOS - Safari - Brave Browser) \
+iPhone 11 (iOS - Safari) \
+iPhone 8 (iOS - Safari) \
+Samsung Galaxy A8 (Android - Samsung Browser) \
+Oneplus Nord 2 (Android - Chrome) \
 iPad 10" (iOS - Safari)
 
 ---
@@ -153,7 +188,7 @@ Testing was focused to ensure the following criteria were met:
 ---
 
 I strived to achieve near-perfect scores across all metrics, aiming for a solid 100. \
-Though it proved to be a challenging endeavor, i ultimately triumphed. \
+Though it proved to be a challenging endeavor, i ultimately triumphed with the Performance. \
 It's remarkable how even the tiniest modifications can have a significant impact on performance. \
 The primary obstacle I encountered was the subpar quality of the image files I possessed, which dragged down my Best Practices rating. \
 Unfortunately, there wasn't much I could do to enhance them, as the initial quality of the files was rather obscure.
@@ -166,7 +201,11 @@ Unfortunately, there wasn't much I could do to enhance them, as the initial qual
 |        ![Alt text](assets/readme/Sk%C3%A4rmbild%202023-05-15%20220617.png)         |         ![Alt text](assets/readme/Sk%C3%A4rmbild%202023-05-15%20220650.png)         |
 |                        ![Alt text](assets/readme/404m.png)                         |                         ![Alt text](assets/readme/404d.png)                         |
 
+---
+
 ### Functional Testing
+
+---
 
 #### **Navigation Links**
 
@@ -208,12 +247,25 @@ Steps to test:
 3. Click Submit
 
 Expected: \
-You cant submit and an Error is displayed to tell the user that the field is required.
+You cant submit, an Error is displayed to tell the user that the field is required.
 
 Actual: \
 Website behaved as expected, error message was displayed and the form did not submit.
 
----
+**Scenario Three - Incorrect email format**
+
+Steps to test:
+
+1. Navigate to [The Choban Algorithm](https://birgerosterberg.github.io/thechobanalgorithm/index.html#signup)
+2. Scroll down to the form and input the following data:
+3. Email: the.choban.algorithm.com
+4. Click Submit
+
+Expected: \
+The form does not submit and an Error is displayed to tell the user that a valid email is required and the format it should be in.
+
+Actual: \
+Website behaved as expected, error message was displayed and the form did not submit.
 
 ## Deployment
 
@@ -229,11 +281,35 @@ I have developed this project using two different Windows computers: one laptop 
 
 During this process i have also had the choice to use the terminal in GitKraken to use commands such as git pull, git add, git commit and git push. However i rarely been using this since shown in the user interface of GitKraken it is very powerful in its way with Git.
 
+### **Deployment to Github Pages**
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+- In the GitHub repository, navigate to the Settings tab
+- From the menu on left select 'Pages'
+- From the source section drop-down menu, select the Branch: main
+- Click 'Save'
+- A live link will be displayed in a green banner when published successfully.
+- The live link can be found here - https://birgerosterberg.github.io/thechobanalgorithm/
+
+### **Clone the Repository to Code Locally**
+
+Navigate to the GitHub Repository you want to clone to use locally:
+
+- Click on the code drop down button
+- Click on HTTPS
+- Copy the repository link to the clipboard
+- Open your IDE of choice (git must be installed for the next steps)
+- Type git clone copied-git-url into the IDE terminal
+- The project will now of been cloned on your local machine for use.
+
 ## Media
 
-Images was taken from www.pexels.com
+Hero images and gallery images was taken from [Pexels](https://www.pexels.com)
 
-Images was generated by Midjourney
+About section images was generated by [Midjourney](https://www.midjourney.com/)
+
+Logo was created by myself on [Canva](https://www.canva.com)
 
 ## Other Content
 
@@ -241,3 +317,5 @@ Color palette used: https://colorhunt.co/palette/a9907ef3debaabc4aa675d50 \
 Fonts from: https://google.com/fonts \
 Icons from: https://fontawesome.com/icons \
 Shadows from: https://getcssscan.com/css-box-shadow-examples \
+Special mention for guidance and inspiration to [Gareth McGirr](https://github.com/Gareth-McGirr/) \
+Texts on website written by my fiancée [Linda Tervo](mailto:linda.s.tervo@gmail.com) who also is a part of The Choban Algorithm! \
