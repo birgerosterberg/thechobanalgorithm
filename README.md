@@ -1,5 +1,6 @@
 <div style="text-align: center">
 <img src="assets/images/logo.webp" alt="Logo for choban algorithm!">
+<img src="assets/readme/Sk%C3%A4rmbild%202023-05-16%20202205.png" alt="Mockup of the page on different screens">
 <h1>The Choban Algorithm</h1>
 </div>
 
@@ -28,7 +29,13 @@ By presenting all this information on one page with links to different sections,
 
 ### Wireframes / Mockups
 
-![Alt text](assets/readme/wffp.jpg)
+**Desktop**
+
+![mobile mockup](assets/readme/wffp.jpg) \
+
+**Mobile**
+
+![mobile mockup](assets/readme/wff.jpg)
 
 ---
 
@@ -61,42 +68,42 @@ By presenting all this information on one page with links to different sections,
   - Youtube video links, that offers ideas and inspiration for living a more natural life.
   - Will include tips and resources on topics such as sustainable living, eco-friendly products, and healthy eating.
   - The aim of this section is to provide users with practical ideas that they can incorporate into their daily lives. \
-    ![Alt text](assets/readme/inspires.png)
+    ![inspiration screen](assets/readme/inspires.png)
 
 - **Permaculture**
 
   - Provides information on permaculture principles and practices.
   - This section explains what permaculture is and offers resources and guides for those interested in implementing permaculture principles in their own lives. \
-    ![Alt text](assets/readme/permas.png)
+    ![permaculture screen](assets/readme/permas.png)
 
 - **Gallery**
 
   - Showcases stunning images of nature and sustainable living.
   - Includes a collection of images that are designed to inspire users and encourage them to appreciate the beauty of nature. \
-    ![Alt text](assets/readme/gallerys.png)
+    ![gallery screen](assets/readme/gallerys.png)
 
 - **Signup**
 
   - Offers users the opportunity to sign up for a newsletter or updates on future blog posts or podcasts(In the future!).
   - Includes a simple form with only an email required that users can fill out to receive updates from the website.
   - The aim of this section is to encourage users to engage with the website and become part of the community. \
-    ![Alt text](assets/readme/signs.png)
+    ![signup screen](assets/readme/signs.png)
 
 - **Footer**
 
   - Contains links to the different social media pages that will be available in the future, but for now, they go to the basic pages of Instagram, Facebook, and YouTube
   - There is a mailto link with a made-up email address that makes it easy to send an email. \
-    ![Alt text](assets/readme/footers.png)
+    ![footer screen](assets/readme/footers.png)
 
 - **404.html**
 
   - Contains an error screen where users are taken if they try to reach something that does not exist on this site. There is also the navbar from above on this page to get back \
-    ![Alt text](assets/readme/404s.png)
+    ![404 screen](assets/readme/404s.png)
 
 - **thanks.html**
 
   - Is the page the user is directed to when signed up to for the newsletter. There is also the navbar from above on this page to get back \
-    ![Alt text](assets/readme/thanks.png)
+    ![thanks screen](assets/readme/thanks.png)
 
 ---
 
@@ -273,7 +280,7 @@ Website behaved as expected, error message was displayed and the form did not su
 
 ### **Version Control**
 
-The site was created using Visual Studio code IDE and pushed to github to the remote repository [thechobanalgorithm](https://github.com/birgerosterberg/thechobanalgorithm).
+The site was created using Visual Studio code and pushed to github to the remote repository [thechobanalgorithm](https://github.com/birgerosterberg/thechobanalgorithm).
 
 I have developed this project using two different Windows computers: one laptop and one stationary desktop. I have kept the code up to date throughout my work by a tool called [GitKraken](https://gitkraken.com), which provides an outstanding overview of my workflow. Its graphical user interface allows me to track my commits throughout the entire project and clearly indicates which system I used for each commit. This fortunate knowledge helps me locate the original files easily if I need to rework something.
 
@@ -284,9 +291,14 @@ During this process i have also had the choice to use the terminal in GitKraken 
 Due to me using GitKraken and two computers i have made a major mistake when setting up my account and commit signature...
 ![Alt text](assets/readme/Sk%C3%A4rmbild%202023-05-16%20185515.png)
 As you can see on the screenshot i took i misspelled my email for the commit signature and wrote: birger.oesterber@gmail.com
-instead of birger.oesterberg@gmail.com that is my email address... Now i have worked on this project for a longtime and feel quite sad that this mistake happened and it is my own fault, i hope you will understand when grading this project that it is a very stupid mistake done by me!
+instead of birger.oesterberg@gmail.com that is my email address... Now i have worked on this project for a longtime and feel quite sad that this mistake happened and it is my own fault, i hope you will understand when grading this project that it is a very stupid mistake done by me! \
 
-This is how it was setup on the computer with the right email that have commits from birgerosterberg
+I also send you a screenshot of the repository in GitHub that shows no one else then me have had access to this.
+
+![Alt text](assets/readme/Sk%C3%A4rmbild%202023-05-16%20203407.png)
+
+This is how it was setup on the computer with the right email that have commits from birgerosterberg \
+
 ![Alt text](assets/readme/Sk%C3%A4rmbild%202023-05-16%20184111.png)
 
 ### **Deployment to Github Pages**
