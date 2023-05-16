@@ -286,6 +286,9 @@ Due to me using GitKraken and two computers i have made a major mistake when set
 As you can see on the screenshot i took i misspelled my email for the commit signature and wrote: birger.oesterber@gmail.com
 instead of birger.oesterberg@gmail.com that is my email address... Now i have worked on this project for a longtime and feel quite sad that this mistake happened and it is my own fault, i hope you will understand when grading this project that it is a very stupid mistake done by me!
 
+This is how it was setup on the computer with the right email that have commits from birgerosterberg
+![Alt text](assets/readme/Sk%C3%A4rmbild%202023-05-16%20184111.png)
+
 ### **Deployment to Github Pages**
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
