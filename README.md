@@ -325,7 +325,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - From the source section drop-down menu, select the Branch: main
 - Click 'Save'
 - A live link will be displayed in a green banner when published successfully.
-- The live link can be found here - https://birgerosterberg.github.io/thechobanalgorithm/
+- The live link can be found [here](https://github.com/birgerosterberg/thechobanalgorithm)
 
 ### **Clone the Repository to Code Locally**
 
@@ -352,5 +352,5 @@ Color palette used: https://colorhunt.co/palette/a9907ef3debaabc4aa675d50 \
 Fonts from: https://google.com/fonts \
 Icons from: https://fontawesome.com/icons \
 Shadows from: https://getcssscan.com/css-box-shadow-examples \
-Special mention for guidance and inspiration to [Gareth McGirr](https://github.com/Gareth-McGirr/)
+Special mention for guidance and inspiration to [Gareth McGirr](https://github.com/Gareth-McGirr/) \
 Text about permaculture taken from [Wikipedia](https://en.wikipedia.org/wiki/Permaculture)
